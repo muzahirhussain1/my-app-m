@@ -1,0 +1,7 @@
+.root {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  width: 70%;
+  margin: auto;
+  justify-items: center;
+}

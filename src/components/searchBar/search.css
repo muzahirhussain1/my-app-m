@@ -1,0 +1,39 @@
+.searchbar {
+  height: 6rem;
+  width: 38rem;
+  margin: 130px auto;
+  background-color: white;
+  box-shadow: 7px 7px 7px 7px rgb(243, 240, 240);
+  display: flex;
+  justify-content: center;
+  line-height: 7rem;
+  align-items: center;
+  border-radius: 7px;
+}
+.fields {
+  display: flex;
+  border: 2px solid red;
+}
+/* .fields {
+  border: 2px solid red;
+  background-color: green;
+} */
+.searchbar input {
+  border: 0.5px solid gainsboro;
+  padding: 6px 125px;
+  background: rgb(248 250 252);
+}
+
+.searchbtn {
+  background: rgb(16, 185, 129);
+  padding: 7px 20px;
+  letter-spacing: 2px;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  color: white;
+  transition: all 0.7s;
+}
+.searchbtn:hover {
+  background-color: rgb(8, 56, 8);
+  cursor: pointer;
+}
